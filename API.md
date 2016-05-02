@@ -21,8 +21,8 @@ Socket.IO namespace: "/presenter"
 ### S to M
 
 | Event name             | Fields                | Description |
-|------------------------|-----------------------|-|
-| ok                     |                       | |
+|------------------------|-----------------------|-------------|
+| ok                     |                       |             |
 | not ok                 | errorType             | Handshake is rejected when a validation error occurs ("roomId" is not according to validation regex). |
 | state                  | progress, slideNotes, presentationConnected | Emitted when the presentation sends the state event to the server, or when a presenter connects. In the latter case the values the presentation most recently emitted are used. |
 
