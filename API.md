@@ -36,8 +36,8 @@ Socket.IO namespace: "/presentation"
 
 ### S to B
 
-| Event name          | Fields    | |
-|---------------------|-----------|-|
+| Event name          | Fields    |    |
+|---------------------|-----------|----|
 | ok                  | roomId    | B is added to a room defined by its roomId string. |
 | not ok              | errorType | Handshake is rejected when a browser window is already connected or when a validation error occurs. |
 | control             | action    | "action" must be a property of the global Reveal object. |
